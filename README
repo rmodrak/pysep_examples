@@ -1,17 +1,20 @@
 
 1. Create conda environment:
 
->> conda create -n pysep
->> conda activate pysep
-
+```
+conda create -n pysep
+conda activate pysep
+```
 
 
 2. Download and install PySEP:
 
->> git clone https://github.com/adjtomo/pysep.git
->> cd pysep
->> conda env update --file environment.yml
->> cd ..
+```
+git clone https://github.com/adjtomo/pysep.git
+cd pysep
+conda env update --file environment.yml
+cd ..
+```
 
 ..note:
 
@@ -23,14 +26,18 @@
 
 3. Download PySEP configuration files:
 
->> git clone --branch pysep_example https://github.com/rmodrak/mtbench.git pysep_example
+```
+git clone --branch pysep_example https://github.com/rmodrak/mtbench.git pysep_example
+```
 
 
 
 4. Download waveforms from IRIS data sources using PySEP:
 
->> cd pysep_example
->> pysep -c pysep_config.yaml
+```
+cd pysep_example
+pysep -c pysep_config.yaml
+```
 
 
 
